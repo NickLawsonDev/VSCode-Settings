@@ -1,0 +1,196 @@
+{
+    "explorer.confirmDelete": false,
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "zenMode.fullScreen": false,
+    "workbench.editor.showTabs": false,
+    "editor.codeLens": false,
+    "workbench.activityBar.visible": false,
+    "workbench.startupEditor": "none",
+    "editor.renderControlCharacters": false,
+    "editor.renderIndentGuides": false,
+    "editor.renderLineHighlight": "none",
+    "editor.matchBrackets": false,
+    "editor.lineNumbers": "off",
+    "explorer.openEditors.visible": 0,
+    "workbench.sideBar.location": "right",
+    "editor.fontSize": 18,
+    "editor.lineHeight": 30,
+    "editor.letterSpacing": 0,
+    "editor.fontFamily": "Fira Code",
+    "editor.suggestFontSize": 16,
+    "editor.suggestLineHeight": 20,
+    "editor.fontLigatures": true,
+    "editor.emptySelectionClipboard": false,
+    "editor.quickSuggestionsDelay": 0,
+    "editor.formatOnPaste": true,
+    "window.zoomLevel": 0,
+    "workbench.colorCustomizations": {
+        "editor.findMatchBackground": "#7e3505",
+        "editor.background": "#052027",
+        "editor.foreground": "#FFF",
+        "activityBarBadge.background": "#052027",
+        "sideBarTitle.foreground": "#b4947e",
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Comment",
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#04820E"
+                }
+            },
+            {
+                "name": "Variables",
+                "scope": [
+                    "variable",
+                    "string constant.other.placeholder"
+                ],
+                "settings": {
+                    "foreground": "#b4947e"
+                }
+            },
+            {
+                "name": "Colors",
+                "scope": [
+                    "constant.other.color"
+                ],
+                "settings": {
+                    "foreground": "#b4947e"
+                }
+            },
+            {
+                "name": "Invalid",
+                "scope": [
+                    "invalid",
+                    "invalid.illegal"
+                ],
+                "settings": {
+                    "foreground": "#FF5370"
+                }
+            },
+            {
+                "name": "Keyword, Storage",
+                "scope": [
+                    "keyword",
+                    "storage.type",
+                    "storage.modifier",
+                    "constant.other.color",
+                    "keyword.other.template",
+                    "keyword.other.substitution"
+                ],
+                "settings": {
+                    "foreground": "#b4947e"
+                }
+            },
+            {
+                "name": "Operator",
+                "scope": [
+                    "keyword.control"
+                ],
+                "settings": {
+                    "foreground": "#FFF"
+                }
+            },
+            {
+                "name": "Tag",
+                "scope": [
+                    "entity.name.tag",
+                    "meta.tag.sgml",
+                    "markup.deleted.git_gutter"
+                ],
+                "settings": {
+                    "foreground": "#b4947e"
+                }
+            },
+            {
+                "name": "Function, Special Method",
+                "scope": [
+                    "entity.name.function",
+                    "meta.function-call",
+                    "variable.function",
+                    "support.function",
+                    "keyword.other.special-method"
+                ],
+                "settings": {
+                    "foreground": "#b4947e"
+                }
+            },
+            {
+                "name": "Block Level Variables",
+                "scope": [
+                    "meta.block variable.other"
+                ],
+                "settings": {
+                    "foreground": "#b4947e"
+                }
+            },
+            {
+                "name": "Other Variable, String Link",
+                "scope": [
+                    "support.other.variable",
+                    "string.other.link"
+                ],
+                "settings": {
+                    "foreground": "#b4947e"
+                }
+            },
+            {
+                "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+                "scope": [
+                    "constant.numeric",
+                    "constant.language",
+                    "support.constant",
+                    "constant.character",
+                    "constant.escape",
+                    "variable.parameter",
+                    "keyword.other.unit",
+                    "keyword.other"
+                ],
+                "settings": {
+                    "foreground": "#b4947e"
+                }
+            },
+            {
+                "name": "String, Symbols, Inherited Class, Markup Heading",
+                "scope": [
+                    "string",
+                    "constant.other.symbol",
+                    "constant.other.key",
+                    "entity.other.inherited-class",
+                    "markup.heading",
+                    "markup.inserted.git_gutter",
+                    "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+                ],
+                "settings": {
+                    "fontStyle": "normal",
+                    "foreground": "#b4947e"
+                }
+            },
+            {
+                "name": "Class, Support",
+                "scope": [
+                    "entity.name",
+                    "support.type",
+                    "support.class",
+                    "support.orther.namespace.use.php",
+                    "meta.use.php",
+                    "support.other.namespace.php",
+                    "markup.changed.git_gutter",
+                    "support.type.sys-types"
+                ],
+                "settings": {
+                    "foreground": "#b4947e"
+                }
+            },
+        ]
+    }
+}
